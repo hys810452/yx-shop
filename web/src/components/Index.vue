@@ -16,7 +16,9 @@
 export default {
   data() {
     return {
+      search: "",
       search: ""
+
     };
   },
   methods: {
