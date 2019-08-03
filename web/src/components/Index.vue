@@ -5,9 +5,11 @@
         <h2>首页</h2>
       </van-col>
       <van-col span="18">
-        <van-search shape="round" placeholder="请输入搜索关键词" v-model="search" />
+        <van-search shape="round" :placeholder="keyWord" v-model="search" />
       </van-col>
-      <van-col span="3" align="center">消息</van-col>
+      <van-col span="3" align="center">
+        <h3>消息</h3>
+      </van-col>
     </van-row>
   </div>
 </template>
@@ -17,8 +19,7 @@ export default {
   data() {
     return {
       search: "",
-      search: ""
-
+      keyWord: "请输入关键词"
     };
   },
   methods: {
