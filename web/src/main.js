@@ -8,6 +8,8 @@ import Vant from 'vant'
 import 'vant/lib/index.css'
 // 全局css样式
 import './assets/css/main.css'
+// 分辨率适配
+import './assets/js/resolving_power.js'
 
 Vue.use(Vant);
 
